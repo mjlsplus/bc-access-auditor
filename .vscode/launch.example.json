@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "BCAA Development Sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "REPLACE_WITH_YOUR_SANDBOX",
+            "schemaUpdateMode": "Synchronize",
+            "startupObjectId": 50599,
+            "startupObjectType": "Page",
+            "breakOnError": "None",
+            "launchBrowser": true
+        }
+    ]
+}

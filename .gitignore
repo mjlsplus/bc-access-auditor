@@ -1,0 +1,60 @@
+.alpackages/
+.snapshots/
+.output/
+*.app
+# Packages/diagnostics only. Ignoring this folder does NOT exclude AL source from F5.
+# Build-Performance.ps1 stages generated source outside the repository in TEMP.
+/.build/
+*.runtimepackage
+# Only the sanitized launch template belongs in source control.
+/.vscode/*
+!/.vscode/launch.example.json
+*.code-workspace
+/.agents/
+/.codex/
+/docs/internal/
+
+# Local change records; public workflow, validation and compatibility guides
+# retain their useful guidance. Keep the original historical files on disk.
+/docs/BC_Access_Auditor_User_Process_Guidance.doc
+/docs/ID-Renumbering-Baseline.json
+/docs/ID-Renumbering-Changed-Files.txt
+/docs/ID-Renumbering-Report.md
+/docs/ID-Renumbering-Mapping.csv
+/docs/ID-Renumbering-Unchanged-Fields.csv
+/docs/StabilizationBatch1.md
+/tests/F05-Transactions.md
+/tests/F06-ScopeReduction.md
+
+# Local temporary files and generated test output (keep test source).
+*.log
+*.tmp
+*.temp
+__pycache__/
+*.pyc
+/TestResults/
+/tests/TestResults/
+/tests/.output/
+*.sarif
+*.diagnostics.json
+*.bak
+*.swp
+*.swo
+*~
+
+# Local secrets and signing material; never commit real credentials.
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+*.cer
+*.crt
+*.snk
+
+# Operating system metadata.
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini

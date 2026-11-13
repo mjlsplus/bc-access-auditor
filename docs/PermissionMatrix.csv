@@ -1,0 +1,98 @@
+ObjectType,ObjectID,ObjectName,VIEW,ADMIN including VIEW,SCHEMA COVERAGE not included
+tabledata,50500,BCG Conflict Header,R,RIMD,-
+tabledata,50501,BCG Conflict Group,R,RIMD,-
+tabledata,50502,BCG Rule Dictionary,R,RIMD,-
+tabledata,50503,BCG Conflict Group Rule,R,RIMD,-
+tabledata,50504,BCG User Permission Demo,-,-,R
+tabledata,50505,BCG Legacy Conflict Result,-,-,R
+tabledata,50506,BCG Setup,R,RIMD,-
+tabledata,50520,BCG Audit Run,R,Rimd,-
+tabledata,50521,BCG User Snapshot,R,Rimd,-
+tabledata,50522,BCG User Perm. Assignment,R,Rimd,-
+tabledata,50523,BCG Perm. Set Object Perm.,R,Rimd,-
+tabledata,50524,BCG User Table Data Perm.,R,Rimd,-
+tabledata,50530,BCG Wizard Buffer,-,-,R
+tabledata,50580,BCG User Conflict Result,R,Rimd,-
+tabledata,50582,BCG User Conflict Result Line,R,Rimd,-
+tabledata,50584,BCG Conflict Source Trace,R,Rimd,-
+tabledata,50592,BCG SecGrp Snap,R,Rimd,-
+tabledata,50593,BCG SecGrp Member Snap,R,Rimd,-
+tabledata,50594,BCG SecGrp Perm Assign,R,Rimd,-
+tabledata,50598,BCG Conflict Cue,R,RI,-
+tabledata,50960,BCG Perf Dataset,-,-,R
+tabledata,2000000053,Access Control,-,R,-
+tabledata,2000000058,AllObjWithCaption,-,R,-
+tabledata,2000000120,User,R,R,-
+tabledata,2000000167,Aggregate Permission Set,-,R,-
+tabledata,2000000254,Expanded Permission,-,R,-
+table,9021,Security Group Member Buffer,-,X,-
+table,9022,Security Group Buffer,-,X,-
+table,50500,BCG Conflict Header,X,X,-
+table,50501,BCG Conflict Group,X,X,-
+table,50502,BCG Rule Dictionary,X,X,-
+table,50503,BCG Conflict Group Rule,X,X,-
+table,50506,BCG Setup,X,X,-
+table,50520,BCG Audit Run,X,X,-
+table,50521,BCG User Snapshot,X,X,-
+table,50522,BCG User Perm. Assignment,X,X,-
+table,50523,BCG Perm. Set Object Perm.,X,X,-
+table,50524,BCG User Table Data Perm.,X,X,-
+table,50530,BCG Wizard Buffer,-,X,-
+table,50580,BCG User Conflict Result,X,X,-
+table,50582,BCG User Conflict Result Line,X,X,-
+table,50584,BCG Conflict Source Trace,X,X,-
+table,50592,BCG SecGrp Snap,X,X,-
+table,50593,BCG SecGrp Member Snap,X,X,-
+table,50594,BCG SecGrp Perm Assign,X,X,-
+table,50598,BCG Conflict Cue,X,X,-
+table,50605,BCG Detected Conflict Buffer,X,X,-
+table,50610,BCG Affected User Buffer,X,X,-
+table,2000000053,Access Control,-,X,-
+table,2000000058,AllObjWithCaption,-,X,-
+table,2000000120,User,X,X,-
+table,2000000167,Aggregate Permission Set,-,X,-
+table,2000000254,Expanded Permission,X,X,-
+codeunit,152,User Permissions,X,X,-
+codeunit,9031,Security Group,-,X,-
+codeunit,50507,BCG Run No. Mgt.,-,X,-
+codeunit,50520,BCG Snapshot Mgt.,-,X,-
+codeunit,50532,BCG Wizard Mgt,-,X,-
+codeunit,50540,BCG Special Permission Mgt.,-,X,-
+codeunit,50563,BCG Conflict Src Summary,-,X,-
+codeunit,50568,BCG Conflict Evidence Mgt,-,X,-
+codeunit,50575,BCG Run Cleanup Mgt.,-,X,-
+codeunit,50578,BCG User Access Context Mgt,-,X,-
+codeunit,50579,BCG SecGrp Special Src Mgt,-,X,-
+codeunit,50586,BCG Conflict Source Mgt,-,X,-
+codeunit,50595,BCG SecGrp Mgt,-,X,-
+codeunit,50606,BCG Risk Presentation Mgt.,X,X,-
+codeunit,50611,BCG Affected User Mgt.,X,X,-
+codeunit,50615,BCG Access Mgt.,X,X,-
+page,50510,BCG Conflicts,X,X,-
+page,50511,BCG Conflict Card,X,X,-
+page,50512,BCG Conflict Groups,X,X,-
+page,50513,BCG Conflict Group Rules,X,X,-
+page,50514,BCG Rule Dictionary,X,X,-
+page,50517,BCG Setup,-,X,-
+page,50518,BCG Conflict Groups Admin,-,X,-
+page,50519,BCG Conflict Grp Rules Admin,-,X,-
+page,50520,BCG Audit Runs,X,X,-
+page,50524,BCG User Table Data Perms,X,X,-
+page,50530,BCG Simple Wizard,-,X,-
+page,50581,BCG User Conflict Results,X,X,-
+page,50582,BCG Conflict Evidence FactBox,X,X,-
+page,50583,BCG User Conflict Result Line,X,X,-
+page,50585,BCG Conflict Source Trace,X,X,-
+page,50589,BCG Administration,-,X,-
+page,50592,BCG Conflict Results Source,X,X,-
+page,50593,BCG Conflict Lines Source,X,X,-
+page,50594,BCG Conflict Cues,X,X,-
+page,50596,BCG Security Groups,X,X,-
+page,50597,BCG Security Group Members,X,X,-
+page,50598,BCG SecGrp Permissions,X,X,-
+page,50599,BCG Security Overview RC,X,X,-
+page,50607,BCG Detected Conflicts,X,X,-
+page,50608,BCG Conflict Review,X,X,-
+page,50609,BCG Affected Findings Part,X,X,-
+page,50612,BCG Affected Users,X,X,-
+page,50614,BCG Run Analysis,-,X,-
